@@ -1,7 +1,6 @@
 {
     "name": "johnosjw/pastebin-client",
     "description": "Client for work with Pastebin service",
-    "version": "1.0",
 
     "require": {
         "php-curl-class/php-curl-class": "^8.3"
