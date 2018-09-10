@@ -18,5 +18,6 @@
             "App\\Models\\": "app/models/",
             "App\\Controllers\\": "app/controllers/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
