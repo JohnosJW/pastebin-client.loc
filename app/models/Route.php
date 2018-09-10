@@ -11,7 +11,7 @@ class Route {
 
         self::$validRoutes[] = $route;
 
-        if ($_GET['url'] == $route) {
+        if (isset($_GET['url']) && $_GET['url'] == $route) {
             $function->__invoke();
         }
     }
